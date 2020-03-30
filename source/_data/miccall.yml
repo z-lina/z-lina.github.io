@@ -129,9 +129,9 @@ head:
   backgroundpic : "img/bg.jpg"
 
 Intro:
-  name: MICCALL
+  name: LINA
   slogan: "Whatever is worth doing is worth doing well <br/> I'll think of you every step of the way"
-  HeadButton: MICCALL
+  HeadButton: LINA
 
 Nav:
   Home_name: 主页

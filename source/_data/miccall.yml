@@ -124,8 +124,8 @@ sitemap:
 
 # Head info
 head:
-  favicon: "/img/logo_miccall.png"
-  keywords: miccall
+  favicon: "/img/logo_lina.png"
+  keywords: lina
   backgroundpic : "img/bg.jpg"
 
 Intro:

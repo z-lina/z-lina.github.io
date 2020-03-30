@@ -1,2 +1,2 @@
-# z-lina.github.io
-博客
+# 博客地址:
+http://blog.z-lina.com

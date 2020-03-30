@@ -6,4 +6,4 @@ Allow: /tags/
 Allow: /categories/
 Allow: /posts/
 
-Sitemap: http://blog.z-lina.com/sitemap.xml
+Sitemap: http://www.z-lina.com/sitemap.xml

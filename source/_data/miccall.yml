@@ -1,0 +1,235 @@
+################################
+######## 站点配置文件  #########
+################################
+
+# Hexo Configuration
+## Docs: https://hexo.io/docs/configuration.html
+## Source: https://github.com/hexojs/hexo/
+
+# Site
+title: z-lina
+subtitle: z-lina
+description: z-lina
+keywords:
+author: "z-lina"
+language: zh-CN
+timezone: Asia/Shanghai
+
+# URL
+## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
+url: http://z-lina.github.io
+root: /
+permalink: posts/:url.html
+permalink_defaults:
+pretty_urls:
+  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
+  trailing_html: true # Set to false to remove trailing '.html' from permalinks
+
+# Directory
+source_dir: source
+public_dir: public
+tag_dir: tags
+archive_dir: archives
+category_dir: categories
+code_dir: downloads/code
+i18n_dir: :lang
+skip_render:
+
+# Writing
+new_post_name: :title.md # File name of new posts
+default_layout: post
+titlecase: false # Transform title into titlecase
+external_link:
+  enable: true # Open external links in new tab
+  field: site # Apply to the whole site
+  exclude: ''
+filename_case: 0
+render_drafts: false
+post_asset_folder: false
+relative_link: false
+future: true
+highlight:
+  enable: true
+  line_number: true
+  auto_detect: false
+  tab_replace: ''
+  wrap: true
+  hljs: false
+
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+
+# Category & Tag
+default_category: uncategorized
+category_map:
+tag_map:
+
+# Metadata elements
+## https://developer.mozilla.org/en-US/docs/Web/HTML/Element/meta
+meta_generator: true
+
+# Date / Time format
+## Hexo uses Moment.js to parse and display date
+## You can customize the date format as defined in
+## http://momentjs.com/docs/#/displaying/format/
+date_format: YYYY-MM-DD
+time_format: HH:mm:ss
+## Use post's date for updated date unless set in front-matter
+use_date_for_updated: false
+
+# Pagination
+## Set per_page to 0 to disable pagination
+per_page: 10
+pagination_dir: page
+
+# Include / Exclude file(s)
+## include:/exclude: options only apply to the 'source/' folder
+include:
+  - _redirects
+exclude:
+ignore:
+
+# Extensions
+## Plugins: https://hexo.io/plugins/
+## Themes: https://hexo.io/themes/
+theme: miccall
+
+# Deployment
+## Docs: https://hexo.io/docs/deployment.html
+deploy:
+  - type: git
+    repo: https://REPO_TOKEN@github.com/z-lina/z-lina.github.io.git
+    branch: master
+
+feed:
+  type: rss2
+  path: rss.xml
+  limit: 20
+
+sitemap:
+  path: sitemap.xml
+
+################################
+######## 主题配置文件  #########
+################################
+# ---------------------------------------------------------------
+# Site Information Settings
+# ---------------------------------------------------------------
+
+# Head info
+head:
+  favicon: "/img/logo_miccall.png"
+  keywords: miccall
+  backgroundpic : "img/bg.jpg"
+
+Intro:
+  name: MICCALL
+  slogan: "Whatever is worth doing is worth doing well <br/> I'll think of you every step of the way"
+  HeadButton: MICCALL
+
+Nav:
+  Home_name: 主页
+  is_use_categories : true
+  categories_name: 分类
+  is_use_archives : false
+  archives_name: 归档
+
+  #Social
+  # for more icons, please see http://fontawesome.io/icons/#brand
+  icon:
+    github: https://github.com/z-lina
+    500px: http://500px.com
+
+  pages:
+    简历:
+      link: "/about/"
+    分类 :
+      link: "/categories/"
+    标签:
+      link: "/tag/"
+    #自定义标签名
+    #   link：“路径”
+
+MainFirst:
+  name: Miccall Metro
+  description: Technical  Artist  of  Games
+  pic_url: /images/me.jpg
+  goto_ulr: ""
+
+Gallery :
+  title: Mr.metro
+  description: Just another fine responsive
+
+# ---------------------------------------------------------------
+# Style Settings
+# ---------------------------------------------------------------
+
+# Custom code Render System 自定义代码渲染
+# default dark funky okaidia twilight coy solarized  可选项
+# link to review : http://prismjs.com/index.html   官网预览
+prism: coy
+
+# Custom Fonts
+fonts: FZLTCXHJW, "Helvetica Neue", Helvetica, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "FZLTCXHJW", Arial, sans-serif
+
+# Comment Systems
+# Available value of "use":
+#     duoshuo | disqus | disqus_click | changyan
+comment:
+  use: disqus_click
+  shortname: http-miccall-tech
+  duoshuo_thread_key_type: path
+  duoshuo_embed_js_url: "https://static.duoshuo.com/embed.js"
+  changyan_appid:
+  changyan_conf:
+  changyan_thread_key_type: path
+  # 使用 valine 请先执行 npm install valine --save
+  valine: # Valine Comment System https://github.com/xCss/Valine
+    on: false
+    appId: 'your appId'
+    appKey: 'your appkey'
+    notify: true
+    verify: false
+    placeholder: Please leave your footprints
+    avatar: ''
+    avatar_cdn: https://gravatar.loli.net/avatar/ # avatar CDN address, default gravatar.loli.net
+    pageSize: 10 # comments of one page
+
+# Search Systems
+# Available value:
+#     swiftype | google | local
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
+  use: local
+  swiftype_key: Just another fine responsive
+
+
+# Leancloud Views
+leancloud:
+  enable: false
+  app_id: #你的 app_id
+  app_key: #你的 app_key
+  av_core_mini: "https://cdn1.lncld.net/static/js/av-core-mini-0.6.1.js"
+
+# Busuanzi 不蒜子 Views
+busuanzi:
+  enable: true
+  all_site_uv: true
+  post_pv: true
+  busuanzi_pure_mini_js: "https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js"
+
+
+# Mathjax 支持库
+mathjax:
+  enable: true
+  per_page: false
+  cdn: //cdn.bootcss.com/mathjax/2.7.1/latest.js?config=TeX-AMS-MML_HTMLorMML

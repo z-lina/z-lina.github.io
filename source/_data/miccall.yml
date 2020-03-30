@@ -157,13 +157,13 @@ Nav:
     #   link：“路径”
 
 MainFirst:
-  name: Miccall Metro
+  name: Lina
   description: Technical  Artist  of  Games
   pic_url: /images/me.jpg
   goto_ulr: ""
 
 Gallery :
-  title: Mr.metro
+  title: Miss.lina
   description: Just another fine responsive
 
 # ---------------------------------------------------------------

@@ -129,8 +129,8 @@ head:
   backgroundpic : "img/bg.jpg"
 
 Intro:
-  name: LINA
-  slogan: "Whatever is worth doing is worth doing well <br/> I'll think of you every step of the way"
+  name: 名字
+  slogan: "slogan说明在这改Whatever is worth doing is worth doing well <br/> I'll think of you every step of the way"
   HeadButton: LINA
 
 Nav:
@@ -157,13 +157,13 @@ Nav:
     #   link：“路径”
 
 MainFirst:
-  name: Lina
-  description: Technical  Artist  of  Games
+  name: 名字
+  description: 主页描述Technical  Artist  of  Games
   pic_url: /images/me.jpg
   goto_ulr: ""
 
 Gallery :
-  title: Miss.lina
+  title: Miss.名字
   description: Just another fine responsive
 
 # ---------------------------------------------------------------

@@ -8,6 +8,7 @@ tags:
 categories:
   - 分类1
   - 分类2
+thumbnail: /images/green-plant-on-white-wooden-table-3644742.jpg
 ---
 
 # Hello World
@@ -16,3 +17,4 @@ categories:
 <!-- more -->
 
 全文内容
+{% img /images/green-plant-on-white-wooden-table-3644742.jpg %}

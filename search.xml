@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search>
+  <entry>
+    <title>posts/1</title>
+    <url>/posts/undefined.html</url>
+    <content><![CDATA[<p>文章正文</p>
+]]></content>
+      <categories>
+        <category>Algorithm</category>
+      </categories>
+      <tags>
+        <tag>标签1</tag>
+        <tag>标签2 (可选)</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>posts/20.04.02</title>
+    <url>/posts/undefined.html</url>
+    <content><![CDATA[<p>文章正文</p>
+]]></content>
+      <categories>
+        <category>Hard to deemed a God</category>
+      </categories>
+      <tags>
+        <tag>标签1</tag>
+        <tag>标签2 (可选)</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>hello world</title>
+    <url>/posts/hello_world_url.html</url>
+    <content><![CDATA[<h1 id="Hello-World"><a href="#Hello-World" class="headerlink" title="Hello World"></a>Hello World</h1><p>你好世界</p>
+<a id="more"></a>
+
+<p>全文内容</p>
+<img src="/images/green-plant-on-white-wooden-table-3644742.jpg" class="">]]></content>
+      <categories>
+        <category>分类1</category>
+        <category>分类2</category>
+      </categories>
+      <tags>
+        <tag>标签1</tag>
+        <tag>标签2</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Thank for you</title>
+    <url>/posts/undefined.html</url>
+    <content><![CDATA[<p>文章正文</p>
+]]></content>
+      <categories>
+        <category>Thanks</category>
+      </categories>
+      <tags>
+        <tag>标签1</tag>
+        <tag>标签2 (可选)</tag>
+      </tags>
+  </entry>
+</search>

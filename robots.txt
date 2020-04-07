@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /about/
+Allow: /tags/
+Allow: /categories/
+Allow: /posts/
+
+Sitemap: http://www.z-lina.com/sitemap.xml
